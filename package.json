@@ -1,7 +1,7 @@
 {
   "name": "language-csjs",
   "description": "CSJS support in Atom",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "engines": {
     "atom": "*",
     "node": "*"
@@ -15,6 +15,5 @@
   "bugs": {
     "url": "https://github.com/neurosnap/language-csjs/issues"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
