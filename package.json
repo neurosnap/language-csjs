@@ -1,6 +1,5 @@
 {
   "name": "language-csjs",
-  "main": "./lib/main",
   "description": "CSJS support in Atom",
   "version": "0.0.1",
   "engines": {
