@@ -1,0 +1,16 @@
+'scopeName': 'source.csjs.js'
+'name': 'CSJS'
+'fileTypes': [
+  'csjs.js',
+  'js'
+]
+'patterns': [
+  { 'include': 'source.js' }
+  {
+    'begin': 'csjs`'
+    'end': '`'
+    'patterns': [
+      { 'include': 'source.css' }
+    ]
+  }
+]

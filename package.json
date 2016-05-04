@@ -1,0 +1,21 @@
+{
+  "name": "language-csjs",
+  "main": "./lib/main",
+  "description": "CSJS support in Atom",
+  "version": "0.0.1",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neurosnap/language-csjs.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neurosnap/language-csjs/issues"
+  },
+  "devDependencies": {
+  }
+}
