@@ -2,7 +2,6 @@
 'name': 'CSJS'
 'fileTypes': [
   'csjs.js',
-  'js'
 ]
 'patterns': [
   { 'include': 'source.js' }
@@ -10,6 +9,34 @@
     'begin': 'csjs`'
     'end': '`'
     'patterns': [
+      {
+        'begin': '\\$\\{'
+        'captures':
+          '0':
+            'name': 'punctuation.section.embedded.js'
+        'end': '\\}'
+        'name': 'source.js.embedded.source'
+        'patterns': [
+          {
+            'begin': '{'
+            'beginCaptures':
+              '0':
+                'name': 'meta.brace.curly.js'
+            'end': '}'
+            'endCaptures':
+              '0':
+                'name': 'meta.brace.curly.js'
+            'patterns': [
+              {
+                'include': '$self'
+              }
+            ]
+          }
+          {
+            'include': '$self'
+          }
+        ]
+      }
       { 'include': 'source.css' }
     ]
   }
