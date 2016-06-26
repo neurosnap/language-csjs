@@ -17,4 +17,10 @@ the csjs\`\` tagged template string.
 apm install language-csjs
 ```
 
+## Autocomplete
+
+For autocomplete support, download the [autocomplete-csjs](https://github.com/neurosnap/autocomplete-csjs)  package
+
+https://github.com/neurosnap/autocomplete-csjs
+
 Reload Atom
